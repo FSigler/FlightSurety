@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">FlightSurety</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<main class="container">
+
+    <div id="display-wrapper" class="top-20"></div>
+
+    <hr>
+
+    <div clas="col-md-6">
+        <div class="row ">
+            <div class="col-md-4 offset-md-2">
+                <label class="">Flight</label> 
+                <select class="form-control" type="text" id="flight-number"></select>
+                <btn class="top-20 btn btn-primary btn-lg btn-block" id="submit-oracle">Submit to Oracles</btn>
+                <btn class="top-20 btn btn-primary btn-lg btn-block" id="claim-credit">Claim credit refund</btn>
+            </div>
+            <div class="col-md-4">
+                <label class="">Insurance Value</label> 
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                            <div class="input-group-text">ETH</div>
+                    </div>
+                    <input type="text" class="form-control" id="insurance" placeholder="1" value="1">
+                </div> 
+                <btn class="top-20 btn btn-primary btn-lg btn-block" id="buy-insurance">Buy Insurance</btn>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+</body>
+
+</html>
